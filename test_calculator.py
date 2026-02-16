@@ -19,3 +19,7 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(10, 0)
+
+def test_modulus():
+    assert modulus(10, 3) == 1
+    assert modulus(10, 5) == 0
