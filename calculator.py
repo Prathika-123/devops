@@ -16,3 +16,4 @@ def modulus(a, b):
     if b == 0:
         raise ValueError("Cannot take modulus by zero")
     return a % b
+
