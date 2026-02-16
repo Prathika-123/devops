@@ -23,3 +23,4 @@ def test_divide_by_zero():
 def test_modulus():
     assert modulus(10, 3) == 1
     assert modulus(10, 5) == 0
+
